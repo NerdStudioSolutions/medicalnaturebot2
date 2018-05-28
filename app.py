@@ -30,7 +30,7 @@ def webhook():
     data = request.get_json()
     # log(data)  # logging, no necesario en produccion
 
-    inteligente = True
+    inteligente = False
 
     if data["object"] == "page":
 
